@@ -1,5 +1,4 @@
 .App {
-  text-align: center;
   background: linear-gradient(to right, #ddd6f3, #faaca8);
 }
 
@@ -34,3 +33,23 @@
   text-decoration: none;
 }
 
+.recipe_recipe__1Jwgd {
+  display: flex;
+  max-width: 100%;
+}
+
+ul {
+  list-style-type: none;
+  line-height: 25px;
+  padding: 5px;
+}
+
+@media only screen and (max-width: 600px) {
+  .recipes ul {
+    font-size: 15px;
+    padding: 4px 5px;
+  }
+  .recipes h1 {
+    font-size: 1.2rem;
+  }
+}

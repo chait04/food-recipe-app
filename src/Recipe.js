@@ -6,11 +6,11 @@ function Recipe({title, image, calories, ingredients }) {
     return (
         <div className={style.recipe}>
             <h1>{title}</h1>
-            <ol>
+            <ul>
                 {ingredients.map(ingredient => (
                     <li>{ingredient.text}</li>
                 ))}
-            </ol>
+            </ul>
             <p>{calories}</p>
             <img className={style.image} src={image}/>
         </div>
