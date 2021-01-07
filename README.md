@@ -1,4 +1,4 @@
-#  Random / by search meme generator using giphy api 📝
+#  Food Recipe App 📝
 
 [![Prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg)](https://prettier.io)
 [![Issues](https://img.shields.io/github/issues/chait04/food-recipe-app)](#issues)
